@@ -114,33 +114,33 @@ where python
 Copy the output (e.g. C:\Users\YourName\AppData\Local\Programs\Python\Python311\python.exe)
 
 ```text
-Open Task Scheduler
+1. Open Task Scheduler
 
-Press Windows + S → search Task Scheduler → open it
+2. Press Windows + S → search Task Scheduler → open it
 
-Create the task
+3. Create the task
 
-Click "Create Basic Task" on the right
+4. Click "Create Basic Task" on the right
 
-Name: LeetCode Sync → Next
+5. Name: LeetCode Sync → Next
 
-Trigger: Daily → set your preferred time (e.g. 11:00 PM) → Next
+6. Trigger: Daily → set your preferred time (e.g. 11:00 PM) → Next
 
-Action: Start a program → Next
+7. Action: Start a program → Next
 
-Program/script: paste your Python path from step 1
+8. Program/script: paste your Python path from step 1
 
-Add arguments: C:\path\to\leetcode_sync.py
+9. Add arguments: C:\path\to\leetcode_sync.py
 
-Click Finish
+10. Click Finish
 
-Verify it's working
+11. Verify it's working
 
-Open Task Scheduler → Task Scheduler Library → find LeetCode Sync
+12.Open Task Scheduler → Task Scheduler Library → find LeetCode Sync
 
-Check Last Run Time and Last Run Result (0x0 = success)
+13 .Check Last Run Time and Last Run Result (0x0 = success)
 
-Or open sync_log.txt in your Java programs folder and check for a fresh timestamp
+   Or open sync_log.txt in your Java programs folder and check for a fresh timestamp
 ```
 
 ---
