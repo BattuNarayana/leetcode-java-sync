@@ -86,9 +86,10 @@ Find the cookie named csrftoken → copy its Value
 Open leetcode_sync.py in any text editor and fill in:
 
 Python LEETCODE_SESSION = "paste your LEETCODE_SESSION value here"
-CSRF_TOKEN       = "paste your csrftoken value here"
-DEST_FOLDER      = r"C:\Users\YourName\path\to\your\Java programs"
-Step 5 — Run it manually first
+CSRF_TOKEN = "paste your csrftoken value here"
+DEST_FOLDER = r"C:\Users\YourName\path\to\your\Java programs"
+
+**Step 5 — Run it manually first**
 
 ```bash
 python leetcode_sync.py --reset
