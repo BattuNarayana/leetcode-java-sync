@@ -86,7 +86,9 @@ Find the cookie named csrftoken → copy its Value
 Open leetcode_sync.py in any text editor and fill in:
 
 Python LEETCODE_SESSION = "paste your LEETCODE_SESSION value here"
+
 CSRF_TOKEN = "paste your csrftoken value here"
+
 DEST_FOLDER = r"C:\Users\YourName\path\to\your\Java programs"
 
 **Step 5 — Run it manually first**
@@ -111,20 +113,35 @@ where python
 
 Copy the output (e.g. C:\Users\YourName\AppData\Local\Programs\Python\Python311\python.exe)
 
+```text
 Open Task Scheduler
+
 Press Windows + S → search Task Scheduler → open it
+
 Create the task
+
 Click "Create Basic Task" on the right
+
 Name: LeetCode Sync → Next
+
 Trigger: Daily → set your preferred time (e.g. 11:00 PM) → Next
+
 Action: Start a program → Next
+
 Program/script: paste your Python path from step 1
+
 Add arguments: C:\path\to\leetcode_sync.py
+
 Click Finish
+
 Verify it's working
+
 Open Task Scheduler → Task Scheduler Library → find LeetCode Sync
+
 Check Last Run Time and Last Run Result (0x0 = success)
+
 Or open sync_log.txt in your Java programs folder and check for a fresh timestamp
+```
 
 ---
 
