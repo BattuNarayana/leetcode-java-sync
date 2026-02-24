@@ -136,11 +136,11 @@ Copy the output (e.g. C:\Users\YourName\AppData\Local\Programs\Python\Python311\
 
 11. Verify it's working
 
-12.Open Task Scheduler → Task Scheduler Library → find LeetCode Sync
+12. Open Task Scheduler → Task Scheduler Library → find LeetCode Sync
 
-13 .Check Last Run Time and Last Run Result (0x0 = success)
+13. Check Last Run Time and Last Run Result (0x0 = success)
 
-   Or open sync_log.txt in your Java programs folder and check for a fresh timestamp
+    Or open sync_log.txt in your Java programs folder and check for a fresh timestamp
 ```
 
 ---
